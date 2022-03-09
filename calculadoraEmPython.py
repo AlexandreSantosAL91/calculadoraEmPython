@@ -1,44 +1,35 @@
-"""
-Criando uma calculadora utilizando a linguagem Python
-
-O script pergunta qual operação o usuário deseja rodar
-(soma, subtração, multiplicação ou divisão) e executa
-a operação.
-"""
-
-
 def soma():
-    x = float(input("Primeiro numero: "))
-    y = float(input("Segundo numero: "))
-    print("Soma: ", x + y)
+    a = float(input("Primeiro numero: "))
+    b = float(input("Segundo numero: "))
+    print("Soma: ", a + b)
 
 
 def subtracao():
-    x = float(input("Primeiro numero: "))
-    y = float(input("Segundo numero: "))
-    print("Subtracao: ", x - y)
+    a = float(input("Primeiro numero: "))
+    b = float(input("Segundo numero: "))
+    print("Subtracao: ", a - b)
 
 
 def multiplicacao():
-    x = float(input("Primeiro numero: "))
-    y = float(input("Segundo numero: "))
-    print("Multiplicacao: ", x * y)
+    a = float(input("Primeiro numero: "))
+    b = float(input("Segundo numero: "))
+    print("Multiplicacao: ", a * b)
 
 
 def divisao():
-    x = float(input("Primeiro numero: "))
-    y = float(input("Segundo numero: "))
-    print("Divisao: ", x / y)
-
+    a = float(input("Primeiro numero: "))
+    b = float(input("Segundo numero: "))
+    print("Divisao: ", a / b)
 
 opcao = 1
 
 while opcao:
-    print("0. Sair")
+
     print("1. Somar")
     print("2. Subtrair")
     print("3. Multiplicação")
     print("4. Divisão ")
+    print("5. Sair")
 
     opcao = int(input("Opção: "))
 
